@@ -1,0 +1,14 @@
+{
+  "name": "b2b-rfq-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-quality B2B Request for Quotation (RFQ) Marketplace",
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build": "npm run build --prefix server && npm run build --prefix client",
+    "seed": "npm run seed --prefix server",
+    "test:api": "npm run test:api --prefix server"
+  },
+  "keywords": ["rfq", "b2b", "marketplace", "react", "express", "prisma", "mysql"]
+}
